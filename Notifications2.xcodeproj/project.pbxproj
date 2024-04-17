@@ -8,14 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C60B7DE82BCEA3E400416EA8 /* Notifications2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7DE72BCEA3E400416EA8 /* Notifications2App.swift */; };
-		C60B7DEA2BCEA3E400416EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7DE92BCEA3E400416EA8 /* ContentView.swift */; };
 		C60B7DEC2BCEA3E500416EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60B7DEB2BCEA3E500416EA8 /* Assets.xcassets */; };
 		C60B7DEF2BCEA3E500416EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60B7DEE2BCEA3E500416EA8 /* Preview Assets.xcassets */; };
-		C60B7DF12BCEA3E500416EA8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7DF02BCEA3E500416EA8 /* Persistence.swift */; };
 		C60B7DF42BCEA3E500416EA8 /* Notifications2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C60B7DF22BCEA3E500416EA8 /* Notifications2.xcdatamodeld */; };
 		C60B7DFE2BCEA3E500416EA8 /* Notifications2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7DFD2BCEA3E500416EA8 /* Notifications2Tests.swift */; };
 		C60B7E082BCEA3E500416EA8 /* Notifications2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E072BCEA3E500416EA8 /* Notifications2UITests.swift */; };
 		C60B7E0A2BCEA3E500416EA8 /* Notifications2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E092BCEA3E500416EA8 /* Notifications2UITestsLaunchTests.swift */; };
+		C60B7E1B2BCEA69900416EA8 /* DatCntrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E1A2BCEA69900416EA8 /* DatCntrl.swift */; };
+		C60B7E1D2BCEA7A700416EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E1C2BCEA7A700416EA8 /* ContentView.swift */; };
+		C60B7E1F2BCEA93F00416EA8 /* AddIngrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E1E2BCEA93F00416EA8 /* AddIngrView.swift */; };
+		C60B7E212BCEA97300416EA8 /* AddDishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E202BCEA97300416EA8 /* AddDishView.swift */; };
+		C60B7E272BCECD5100416EA8 /* AddMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E262BCECD5100416EA8 /* AddMeal.swift */; };
+		C60B7E292BCED80F00416EA8 /* AddStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E282BCED80F00416EA8 /* AddStockView.swift */; };
+		C60B7E2B2BCEDCF900416EA8 /* ViewPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E2A2BCEDCF900416EA8 /* ViewPlan.swift */; };
+		C60B7E2D2BCF061100416EA8 /* ViewToBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B7E2C2BCF061100416EA8 /* ViewToBuy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +42,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C60B7DE42BCEA3E400416EA8 /* Notifications2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notifications2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60B7DE42BCEA3E400416EA8 /* HLF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60B7DE72BCEA3E400416EA8 /* Notifications2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications2App.swift; sourceTree = "<group>"; };
-		C60B7DE92BCEA3E400416EA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C60B7DEB2BCEA3E500416EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C60B7DEE2BCEA3E500416EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C60B7DF02BCEA3E500416EA8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C60B7DF32BCEA3E500416EA8 /* Notifications2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notifications2.xcdatamodel; sourceTree = "<group>"; };
 		C60B7DF92BCEA3E500416EA8 /* Notifications2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Notifications2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60B7DFD2BCEA3E500416EA8 /* Notifications2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications2Tests.swift; sourceTree = "<group>"; };
 		C60B7E032BCEA3E500416EA8 /* Notifications2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Notifications2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60B7E072BCEA3E500416EA8 /* Notifications2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications2UITests.swift; sourceTree = "<group>"; };
 		C60B7E092BCEA3E500416EA8 /* Notifications2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C60B7E1A2BCEA69900416EA8 /* DatCntrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatCntrl.swift; sourceTree = "<group>"; };
+		C60B7E1C2BCEA7A700416EA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C60B7E1E2BCEA93F00416EA8 /* AddIngrView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngrView.swift; sourceTree = "<group>"; };
+		C60B7E202BCEA97300416EA8 /* AddDishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDishView.swift; sourceTree = "<group>"; };
+		C60B7E262BCECD5100416EA8 /* AddMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeal.swift; sourceTree = "<group>"; };
+		C60B7E282BCED80F00416EA8 /* AddStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStockView.swift; sourceTree = "<group>"; };
+		C60B7E2A2BCEDCF900416EA8 /* ViewPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPlan.swift; sourceTree = "<group>"; };
+		C60B7E2C2BCF061100416EA8 /* ViewToBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewToBuy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +100,7 @@
 		C60B7DE52BCEA3E400416EA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C60B7DE42BCEA3E400416EA8 /* Notifications2.app */,
+				C60B7DE42BCEA3E400416EA8 /* HLF.app */,
 				C60B7DF92BCEA3E500416EA8 /* Notifications2Tests.xctest */,
 				C60B7E032BCEA3E500416EA8 /* Notifications2UITests.xctest */,
 			);
@@ -99,10 +111,15 @@
 			isa = PBXGroup;
 			children = (
 				C60B7DE72BCEA3E400416EA8 /* Notifications2App.swift */,
-				C60B7DE92BCEA3E400416EA8 /* ContentView.swift */,
 				C60B7DEB2BCEA3E500416EA8 /* Assets.xcassets */,
-				C60B7DF02BCEA3E500416EA8 /* Persistence.swift */,
-				C60B7DF22BCEA3E500416EA8 /* Notifications2.xcdatamodeld */,
+				C60B7E1C2BCEA7A700416EA8 /* ContentView.swift */,
+				C60B7E1E2BCEA93F00416EA8 /* AddIngrView.swift */,
+				C60B7E202BCEA97300416EA8 /* AddDishView.swift */,
+				C60B7E262BCECD5100416EA8 /* AddMeal.swift */,
+				C60B7E282BCED80F00416EA8 /* AddStockView.swift */,
+				C60B7E2A2BCEDCF900416EA8 /* ViewPlan.swift */,
+				C60B7E2C2BCF061100416EA8 /* ViewToBuy.swift */,
+				C60B7E162BCEA41E00416EA8 /* DataModel */,
 				C60B7DED2BCEA3E500416EA8 /* Preview Content */,
 			);
 			path = Notifications2;
@@ -133,6 +150,15 @@
 			path = Notifications2UITests;
 			sourceTree = "<group>";
 		};
+		C60B7E162BCEA41E00416EA8 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C60B7DF22BCEA3E500416EA8 /* Notifications2.xcdatamodeld */,
+				C60B7E1A2BCEA69900416EA8 /* DatCntrl.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,7 +176,7 @@
 			);
 			name = Notifications2;
 			productName = Notifications2;
-			productReference = C60B7DE42BCEA3E400416EA8 /* Notifications2.app */;
+			productReference = C60B7DE42BCEA3E400416EA8 /* HLF.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C60B7DF82BCEA3E500416EA8 /* Notifications2Tests */ = {
@@ -263,9 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C60B7DF12BCEA3E500416EA8 /* Persistence.swift in Sources */,
-				C60B7DEA2BCEA3E400416EA8 /* ContentView.swift in Sources */,
+				C60B7E2B2BCEDCF900416EA8 /* ViewPlan.swift in Sources */,
+				C60B7E212BCEA97300416EA8 /* AddDishView.swift in Sources */,
 				C60B7DE82BCEA3E400416EA8 /* Notifications2App.swift in Sources */,
+				C60B7E1B2BCEA69900416EA8 /* DatCntrl.swift in Sources */,
+				C60B7E2D2BCF061100416EA8 /* ViewToBuy.swift in Sources */,
+				C60B7E272BCECD5100416EA8 /* AddMeal.swift in Sources */,
+				C60B7E1D2BCEA7A700416EA8 /* ContentView.swift in Sources */,
+				C60B7E292BCED80F00416EA8 /* AddStockView.swift in Sources */,
+				C60B7E1F2BCEA93F00416EA8 /* AddIngrView.swift in Sources */,
 				C60B7DF42BCEA3E500416EA8 /* Notifications2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +476,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = comp.Notifications2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HLF;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +505,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = comp.Notifications2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HLF;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

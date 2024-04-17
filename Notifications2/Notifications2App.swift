@@ -9,12 +9,13 @@ import SwiftUI
 
 @main
 struct Notifications2App: App {
-    let persistenceController = PersistenceController.shared
+    
+    @StateObject private static var dataController = DatCntrl()
 
-    var body: some Scene {
-        WindowGroup {
+    var body: some Scene{
+        WindowGroup{
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
-}
+        }
+
